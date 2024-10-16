@@ -1,6 +1,6 @@
-package com.plcoding.cryptotracker.util
+package com.jihan.crypto_tracker.util
 
-import com.plcoding.cryptotracker.R
+import com.jihan.crypto_tracker.R
 
 fun getDrawableIdForCoin(symbol: String): Int {
     return when (symbol.uppercase()) {

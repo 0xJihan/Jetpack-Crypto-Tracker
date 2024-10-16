@@ -7,11 +7,11 @@ plugins {
 
 
 android {
-    namespace = "com.plcoding.cryptotracker"
+    namespace = "com.jihan.crypto_tracker"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.plcoding.cryptotracker"
+        applicationId = "com.jihan.crypto_tracker"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

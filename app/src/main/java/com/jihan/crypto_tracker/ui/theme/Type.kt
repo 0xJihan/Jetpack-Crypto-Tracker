@@ -1,4 +1,4 @@
-package com.plcoding.cryptotracker.ui.theme
+package com.jihan.crypto_tracker.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
@@ -7,7 +7,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.plcoding.cryptotracker.R
+import com.jihan.crypto_tracker.R
 
 val SpaceMono = FontFamily(
     Font(

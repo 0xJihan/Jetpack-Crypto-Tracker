@@ -1,4 +1,4 @@
-package com.plcoding.cryptotracker
+package com.jihan.crypto_tracker
 
 import org.junit.Test
 
