@@ -1,7 +1,7 @@
-package com.jihan.crypto_tracker.presentation.coin_list
+package com.jihan.crypto_tracker.crypto.presentation.coin_list
 
 import androidx.compose.runtime.Immutable
-import com.jihan.crypto_tracker.presentation.models.CoinUi
+import com.jihan.crypto_tracker.crypto.presentation.models.CoinUi
 
 @Immutable
 data class CoinListState(

@@ -1,4 +1,4 @@
-package com.jihan.crypto_tracker.presentation.coin_list.components
+package com.jihan.crypto_tracker.crypto.presentation.coin_list.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
@@ -19,7 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.jihan.crypto_tracker.presentation.models.DisplayableNumber
+import com.jihan.crypto_tracker.crypto.presentation.models.DisplayableNumber
 import com.jihan.crypto_tracker.ui.theme.greenBackground
 
 

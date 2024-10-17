@@ -1,8 +1,8 @@
-package com.jihan.crypto_tracker.presentation.models
+package com.jihan.crypto_tracker.crypto.presentation.models
 
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
-import com.jihan.crypto_tracker.domain.Coin
+import com.jihan.crypto_tracker.crypto.domain.Coin
 import com.jihan.crypto_tracker.core.presentation.util.getDrawableIdForCoin
 import java.util.Locale
 

@@ -1,4 +1,4 @@
-package com.jihan.crypto_tracker.presentation.coin_list
+package com.jihan.crypto_tracker.crypto.presentation.coin_list
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -25,9 +25,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
-import com.jihan.crypto_tracker.presentation.coin_list.components.CoinListItem
-import com.jihan.crypto_tracker.presentation.coin_list.components.previewCoin
-import com.jihan.crypto_tracker.presentation.models.CoinUi
+import com.jihan.crypto_tracker.crypto.presentation.coin_list.components.CoinListItem
+import com.jihan.crypto_tracker.crypto.presentation.coin_list.components.previewCoin
+import com.jihan.crypto_tracker.crypto.presentation.models.CoinUi
 import com.jihan.crypto_tracker.ui.theme.CryptoTrackerTheme
 import kotlinx.coroutines.delay
 

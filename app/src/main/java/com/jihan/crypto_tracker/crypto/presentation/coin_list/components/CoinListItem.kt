@@ -1,4 +1,4 @@
-package com.jihan.crypto_tracker.presentation.coin_list.components
+package com.jihan.crypto_tracker.crypto.presentation.coin_list.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -22,9 +22,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.jihan.crypto_tracker.domain.Coin
-import com.jihan.crypto_tracker.presentation.models.CoinUi
-import com.jihan.crypto_tracker.presentation.models.toCoinUi
+import com.jihan.crypto_tracker.crypto.domain.Coin
+import com.jihan.crypto_tracker.crypto.presentation.models.CoinUi
+import com.jihan.crypto_tracker.crypto.presentation.models.toCoinUi
 import com.jihan.crypto_tracker.ui.theme.CryptoTrackerTheme
 
 @Composable

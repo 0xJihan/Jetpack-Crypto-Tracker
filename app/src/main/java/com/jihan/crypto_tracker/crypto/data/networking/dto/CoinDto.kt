@@ -1,6 +1,9 @@
-package com.jihan.crypto_tracker.domain
+package com.jihan.crypto_tracker.crypto.data.networking.dto
 
-data class Coin(
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class CoinDto(
     val id: String,
     val rank: Int,
     val name: String,
