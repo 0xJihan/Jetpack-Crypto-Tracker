@@ -1,4 +1,4 @@
-package com.jihan.crypto_tracker.util
+package com.jihan.crypto_tracker.core.domain.util
 
 typealias DomainError = Error
 

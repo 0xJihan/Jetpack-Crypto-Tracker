@@ -1,4 +1,4 @@
-package com.jihan.crypto_tracker.util
+package com.jihan.crypto_tracker.core.presentation.util
 
 import com.jihan.crypto_tracker.R
 
