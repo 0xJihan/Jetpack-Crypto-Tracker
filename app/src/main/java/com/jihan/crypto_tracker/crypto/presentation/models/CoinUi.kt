@@ -4,7 +4,6 @@ import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
 import com.jihan.crypto_tracker.crypto.domain.Coin
 import com.jihan.crypto_tracker.core.presentation.util.getDrawableIdForCoin
-import com.jihan.crypto_tracker.crypto.domain.CoinPrice
 import com.jihan.crypto_tracker.crypto.presentation.coin_detial.DataPoint
 import java.util.Locale
 
