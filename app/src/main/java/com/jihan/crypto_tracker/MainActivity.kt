@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.jihan.crypto_tracker.core.presentation.util.ObserveAsEvent
 import com.jihan.crypto_tracker.core.presentation.util.toString
+import com.jihan.crypto_tracker.crypto.presentation.coin_detial.CoinDetailScreen
 import com.jihan.crypto_tracker.crypto.presentation.coin_list.CoinListEvent
 import com.jihan.crypto_tracker.crypto.presentation.coin_list.CoinListScreen
 import com.jihan.crypto_tracker.crypto.presentation.coin_list.CoinListViewmodel
@@ -42,10 +43,18 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
-                    CoinListScreen(
-                        modifier = Modifier.padding(innerPadding),
-                        state = state
-                    )
+
+                    when (state.selectedCoin!=null){
+                        true ->  CoinDetailScreen(state, modifier = Modifier.padding(innerPadding))
+                        false -> CoinListScreen(
+                            modifier = Modifier.padding(innerPadding),
+                            state = state
+                        ){
+                         viewModel.onAction(it)
+                        }
+                    }
+
+
 
                 }
             }

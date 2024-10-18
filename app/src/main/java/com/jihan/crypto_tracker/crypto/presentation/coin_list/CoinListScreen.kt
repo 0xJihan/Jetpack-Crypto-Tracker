@@ -25,6 +25,7 @@ import kotlinx.coroutines.flow.emptyFlow
 fun CoinListScreen(
     modifier: Modifier = Modifier,
     state: CoinListState,
+    onAction : (CoinListAction) -> Unit
 ) {
 
 
@@ -49,7 +50,7 @@ fun CoinListScreen(
                         .background(MaterialTheme.colorScheme.background)
                         .padding(16.dp)
                 ) {
-
+                    onAction(CoinListAction.OnCoinClick(coinUi))
                 }
 
                 HorizontalDivider()
@@ -68,6 +69,6 @@ private fun CoinListScreenPreview() {
     val state = CoinListState(coins = (0..100).map { previewCoin })
 
     CryptoTrackerTheme {
-        CoinListScreen(state = state)
+        CoinListScreen(state = state){}
     }
 }
