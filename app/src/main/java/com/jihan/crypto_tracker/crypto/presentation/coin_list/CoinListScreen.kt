@@ -18,8 +18,6 @@ import androidx.compose.ui.unit.dp
 import com.jihan.crypto_tracker.crypto.presentation.coin_list.components.CoinListItem
 import com.jihan.crypto_tracker.crypto.presentation.coin_list.components.previewCoin
 import com.jihan.crypto_tracker.ui.theme.CryptoTrackerTheme
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.emptyFlow
 
 @Composable
 fun CoinListScreen(
