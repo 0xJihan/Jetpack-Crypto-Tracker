@@ -32,7 +32,6 @@ Crypto Tracker is a beautifully designed app that lets you track the latest upda
 - **Kotlinx Serialization**: For handling JSON serialization.
 - **MVI Architecture**: Ensures scalability and ease of maintenance.
 - **Coroutines & Flow**: For managing asynchronous tasks and data streams.
-- **Retrofit**: For networking and API calls.
 - **Custom Chart**: Built from scratch for data visualization.
 
 ## Installation
