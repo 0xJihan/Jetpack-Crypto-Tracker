@@ -1,6 +1,5 @@
 package com.jihan.crypto_tracker.crypto.presentation.coin_list
 
-import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -19,12 +18,16 @@ import androidx.compose.ui.unit.dp
 import com.jihan.crypto_tracker.crypto.presentation.coin_list.components.CoinListItem
 import com.jihan.crypto_tracker.crypto.presentation.coin_list.components.previewCoin
 import com.jihan.crypto_tracker.ui.theme.CryptoTrackerTheme
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.emptyFlow
 
 @Composable
 fun CoinListScreen(
     modifier: Modifier = Modifier,
     state: CoinListState,
 ) {
+
+
     if (state.isLoading) {
         Box(
             modifier = modifier.fillMaxSize(), contentAlignment = Alignment.Center
