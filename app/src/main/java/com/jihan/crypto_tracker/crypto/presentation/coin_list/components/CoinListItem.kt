@@ -117,4 +117,4 @@ internal val previewCoin = Coin(
     priceUsd = 6929.8217756835584756,
     changePercent24Hr = -0.8101417214350335,
 
-).toCoinUi()
+    ).toCoinUi()
